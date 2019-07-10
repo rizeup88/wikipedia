@@ -1,0 +1,89 @@
+html body {
+	background-image: linear-gradient(#FFFFFF, #E6E6E6);
+    background-size: cover;
+}
+
+.logo {
+	position: relative;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+}
+
+.personal {
+	position: relative;
+	font-family: Helvetica;
+	float: right;
+	font-size: 12px;
+	margin-top: 0.33em;
+	padding-right: 1em;
+	z-index: 100;
+}
+
+.header .left-nav {
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 200px;
+}
+
+.left-nav ul {
+	font-size: 12px;
+}
+
+.navbar {
+	margin-right: -21.75em;
+}
+
+.right-nav {
+	display: block;
+	float: right;
+	margin-top: 60px;
+}
+
+.right-nav .nav-list {
+	font-size: 12px;
+	height: 2.5em;
+	float: left;
+}
+
+.right-nav .form-inline {
+	display: block;
+	float: left;
+}
+
+.form-inline input {
+	font-size: 12px;
+	padding-right: 200px;
+}
+
+.form-inline button {
+	font-size: 12px;
+} 
+
+.sidebar {
+	position: relative;
+}
+
+.container-fluid h5 {
+	font-family: Helvetica;
+	font-size: 14px;
+	padding-top: 0.25em;
+	padding-left: 15px;
+	padding-bottom: 0.25em;
+}
+
+.lists {
+	padding-top: 30px;
+}
+
+.section-nav {
+	font-family: Helvetica;
+	font-size: 13px;
+	list-style-type: none;
+	padding-left: 15px;
+}
+
