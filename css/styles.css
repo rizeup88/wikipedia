@@ -1,83 +1,29 @@
 html body {
 	background-image: linear-gradient(#FFFFFF, #E6E6E6);
-    background-size: cover;
+	background-size: cover;
+	position: relative;
+	width: 100%;
 }
 
-.logo {
+.side-content {
 	position: relative;
+}
+
+.sidebar .logo {
 	padding-top: 20px;
 	padding-left: 20px;
 }
 
-.header {
-	position: absolute;
-	width: 100%;
+.sidebar .lists {
+	padding-top: 30px;
 }
 
-.personal {
-	position: relative;
-	font-family: Helvetica;
-	float: right;
-	font-size: 12px;
-	margin-top: 0.33em;
-	padding-right: 1em;
-	z-index: 100;
-}
-
-.header .left-nav {
-	position: absolute;
-	margin-top: 60px;
-	margin-left: 200px;
-}
-
-.left-nav ul {
-	font-size: 12px;
-}
-
-.navbar {
-	margin-right: -21.75em;
-}
-
-.right-nav {
-	display: block;
-	float: right;
-	margin-top: 60px;
-}
-
-.right-nav .nav-list {
-	font-size: 12px;
-	height: 2.5em;
-	float: left;
-}
-
-.right-nav .form-inline {
-	display: block;
-	float: left;
-}
-
-.form-inline input {
-	font-size: 12px;
-	padding-right: 200px;
-}
-
-.form-inline button {
-	font-size: 12px;
-} 
-
-.sidebar {
-	position: relative;
-}
-
-.container-fluid h5 {
+.sidebar .lists h5 {
 	font-family: Helvetica;
 	font-size: 14px;
 	padding-top: 0.25em;
 	padding-left: 15px;
 	padding-bottom: 0.25em;
-}
-
-.lists {
-	padding-top: 30px;
 }
 
 .section-nav {
@@ -87,3 +33,535 @@ html body {
 	padding-left: 15px;
 }
 
+.toolbar {
+	position: relative;
+	margin-top: -123em;
+}
+
+.personal {
+	position: relative;
+	font-family: Helvetica;
+	float: right;
+	font-size: 12px;
+	padding-right: 1em;
+	z-index: 100;
+}
+
+.left-nav {
+	position: absolute;
+	font-family: Helvetica;
+	float: right;
+	font-size: 13px;
+	margin-top: 4em;
+	margin-left: 15em;
+}
+
+.right-nav {
+	position: relative;
+	font-family: Helvetica;
+	float: right;
+	font-size: 13px;
+	margin-top: 4em;
+	margin-right: -2.3em;
+}
+
+.right-nav .form-control {
+	position: absolute;
+	font-family: Helvetica;
+	float: right;
+	font-size: 12px;
+	margin-top: -3em;
+	margin-left: 24em;
+}
+
+.main {
+	position: relative;
+}
+
+.tabs {
+	position: relative;
+}
+
+.tabs .intro {
+	background-color: #EEEEEE;
+	box-sizing: border-box;
+	border: 1px solid #DDDDDD;
+	position: relative;
+	margin-top: 7em;
+	margin-left: 14.2em;
+	margin-right: 1em;
+	max-width: 87.25%;
+}
+
+.intro .container {
+	margin-top: 1.5em;
+}
+
+.intro .container h1 {
+	font-family: Helvetica;
+	font-weight: 500;
+	font-size: 24px;
+}
+
+.intro .container p {
+	font-family: Helvetica;
+	font-weight: 500;
+	font-size: 13px;
+}
+
+.intro .container .introtext {
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+.intro .container .categories {
+	position: relative;
+	text-align: left;
+	float: right;
+	margin-left: 10em;
+	width: 50%;
+	min-width: 30em;
+	font-size: 13px;
+}
+
+.intro .categories .style1 {
+	position: absolute;
+	left: 0;
+}
+
+.intro .categories .style2 {
+	position: absolute;
+	left: 33%;
+}
+
+.intro .categories .style3 {
+	position: absolute;
+	left: 66%;
+}
+
+.main-page {
+	position: relative;
+	margin-left: 14.2em;
+}
+
+.main-page2 {
+	position: relative;
+	margin-left: 14.2em;
+}
+
+.main-page3 {
+	position: relative;
+	margin-left: 14.2em;
+}
+
+.main-page4 {
+	position: relative;
+	margin-left: 14.2em;
+}
+
+.content {
+	position: relative;
+	background-color: #f4fff9;
+	border: 1px solid #c7f0dc;
+	margin-top: 1em;
+	padding: 10px 0px;
+	width: 99%;
+}
+
+.content .container {
+	position: relative;
+	margin: 0px 15px;
+	padding: 0;
+	max-width: 98.25%;
+}
+
+.content .card1 .card-body .card-text-2 {
+	float: right;
+}
+
+.content .card-body .card-text-3 {
+	float: right;
+}
+
+.content .card2 .card-body .dyk {
+	float: left;
+	padding-left: 1.25em;
+}
+
+.content .card3 .card-body .dyk {
+	padding-left: 1.25em;
+}
+
+.content .card4 .card-body .dyk {
+	float: left;
+	padding-left: 1.5em;
+}
+
+.card1 .card-body img {
+	float: left;
+	margin: 0.5em 0.9em 0.4em 0em;
+}
+
+.card3 .card-body img {
+	float: right;
+	margin: 0.5em 0.4em 0.9em 0em;
+}
+
+.content .card1 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #f4fff9;
+	width: 100%;
+}
+
+.content .card1 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #c7f0dc;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content .card2 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #f4fff9;
+	width: 100%;
+}
+
+.content .card2 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #c7f0dc;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content .card3 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #f4fff9;
+	width: 100%;
+}
+
+.content .card3 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #c7f0dc;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content .card4 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #f4fff9;
+	width: 100%;
+}
+
+.content .card4 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #c7f0dc;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content2 {
+	position: relative;
+	background-color: #fff5fa;
+	border: 1px solid #f2cedd;
+	margin-top: 1em;
+	padding: 10px 0px;
+	max-width: 99%;
+}
+
+.content2 .container {
+	position: relative;
+	margin: 0px 15px;
+	padding: 0;
+	max-width: 98.25%;
+}
+
+.content2 .card1 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #fff5fa;
+	width: 100%;
+}
+
+.content2 .card1 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #f2cedd;
+  	border: 1px solid #bfa3af;
+}
+
+.content2 .card-body .card-text-2 {
+	float: right;
+	text-align: right;
+}
+
+.content2 .card1 .card-body img {
+	float: right;
+	margin: 0.5em 0.9em 0.4em 0em;
+}
+
+.content3 {
+	position: relative;
+	background-color: #FAF5FF;
+	border: 1px solid #ddcef2;
+	margin-top: 1em;
+	padding: 10px 0px;
+	width: 99%;
+}
+
+.content3 .container {
+	position: relative;
+	margin: 0px 15px;
+	padding: 0;
+	max-width: 98.25%;
+}
+
+.content3 .card1 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #FAF5FF;
+	width: 100%;
+}
+
+.content3 .card1 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #DDCEF2;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content3 .card1 .card-body .card-text-2 {
+	text-align: right;
+	float: right;
+}
+
+.content3 .card-body .card-text-3 {
+	float: right;
+}
+
+.content3 .card1 .card-body .dyk {
+	float: left;
+	padding-left: 1.25em;
+}
+
+.content3 .card1 .card-body img {
+	float: left;
+	margin: 0.5em 0.9em 0.4em 0em;
+}
+
+.content4 {
+	position: relative;
+	background-color: #FFFFFF;
+	border: 1px solid #e2e2e2;
+	margin-top: 1em;
+	padding: 10px 0px;
+	width: 99%;
+}
+
+.content4 .container {
+	position: relative;
+	margin: 0px 15px;
+	padding: 0;
+	max-width: 98.25%;
+}
+
+.content4 .card1 .card {
+	border: none;
+}
+
+.content4 .card1 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #EFEFEF;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content4 .card1 .card-body .dyk {
+	float: left;
+	padding-left: 1.5em;
+}
+
+.content4 .card2 .card {
+	border: none;
+}
+
+.content4 .card2 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #EFEFEF;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content4 .card2 .card-body {
+	position: relative;
+	display: block;
+	text-align: left;
+	max-width: 100%;
+	font-size: 16px;
+	padding-left: 1.5em;
+}
+
+.content4 .card2 .categories1 {
+	position: relative;
+	padding-left: 0em;
+}
+
+.content4 .card2 .categories1 .style1 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories1 .style2 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories1 .style3 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories2 {
+	position: relative;
+	padding-left: 0em;
+}
+
+.content4 .card2 .categories2 .style1 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories2 .style2 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories2 .style3 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories3 {
+	position: relative;
+	padding-left: 0em;
+}
+
+.content4 .card2 .categories3 .style1 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories3 .style2 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories3 .style3 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories4 {
+	position: relative;
+	padding-left: 0em;
+}
+
+.content4 .card2 .categories4 .style1 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories4 .style2 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card2 .categories4 .style3 {
+	width: 32%;
+	min-width: 20em;
+	white-space: nowrap;
+	margin: 0 1px;
+	display: inline-block;
+}
+
+.content4 .card3 .card {
+	border: 1px solid rgba(0, 0, 0, 0);
+	background-color: #FFFFFF;
+	width: 100%;
+}
+
+.content4 .card3 .card .card-header {
+	font-weight: 700;
+	font-size: 16px;
+	padding: 0.25rem 0.25rem;
+	background-color: #EFEFEF;
+  	border: 1px solid rgba(0.125, 0.125, 0.125, 0.125);
+}
+
+.content4 .card3 .start {
+	padding-left: 1.25em;
+}
+
+.content4 .card3 .card .card-body {
+	padding-left: 0em;
+}
+
+.content4 .card3 .complete {
+	text-align: center;
+}
+
+footer .note1 {
+	position: relative;
+	margin-left: 22.2em;
+	font-size: 11px;
+	padding: 10px 10px;
+	width: 80%;
+	margin-bottom: 0em;
+}
+
+footer .note2 {
+	position: relative;
+	margin-left: 22.2em;
+	font-size: 11px;
+	padding: 0px 10px;
+	width: 80%;
+}
